@@ -2,6 +2,7 @@
   "version": "2",
   "templates": [
     {
+      "id": 1,
       "categories": [
         "Adblocking"
       ],
@@ -17,6 +18,7 @@
       "type": 3
     },
     {
+      "id": 2,
       "categories": [
         "Tools",
         "Dashboard"
@@ -49,6 +51,7 @@
       "type": 3
     },
     {
+      "id": 3,
       "categories": [
         "Tools",
         "Authentication"
@@ -81,6 +84,7 @@
       "type": 3
     },
     {
+      "id": 4,
       "type": 3,
       "title": "EMQX Open Source MQTT Broker",
       "description": "Open-source MQTT broker for IoT, IIoT, and connected vehicles - Single Broker deployment",
@@ -103,6 +107,7 @@
       ]
     },
     {
+      "id": 5,
       "type": 3,
       "title": "Grafana Dashboard",
       "description": "Multi-platform open-source interactive visualization web application",
@@ -125,6 +130,7 @@
       ]
     },
     {
+      "id": 6,
       "type": 1,
       "title": "RabbitMQ",
       "description": "Highly reliable enterprise messaging system",
@@ -140,6 +146,7 @@
       ]
     },
     {
+      "id": 7,
       "type": 1,
       "title": "Redis",
       "description": "Open-source in-memory data structure store",
@@ -155,6 +162,7 @@
       ]
     },
     {
+      "id": 8,
       "type": 1,
       "title": "MySQL",
       "description": "The most popular open-source database",
@@ -181,6 +189,7 @@
       ]
     },
     {
+      "id": 9,
       "type": 1,
       "title": "MariaDB",
       "description": "Performance beyond MySQL",
@@ -202,6 +211,7 @@
       ]
     },
     {
+      "id": 10,
       "type": 1,
       "title": "PostgreSQL",
       "description": "The most advanced open-source database",
@@ -227,6 +237,7 @@
       ]
     },
     {
+      "id": 11,
       "type": 1,
       "title": "Mongo",
       "description": "Open-source document-oriented database",
@@ -242,6 +253,7 @@
       ]
     },
     {
+      "id": 12,
       "categories": [
         "Cloud",
         "Productivity",
@@ -289,6 +301,7 @@
       "type": 3
     },
     {
+      "id": 13,
       "categories": [
         "Cloud",
         "Productivity",
@@ -344,6 +357,7 @@
       "type": 3
     },
     {
+      "id": 14,
       "categories": [
         "Tools",
         "Network"
@@ -360,6 +374,7 @@
       "type": 3
     },
     {
+      "id": 15,
       "categories": [
         "Dashboard",
         "IoT"
@@ -382,6 +397,7 @@
       "type": 3
     },
     {
+      "id": 16,
       "categories": [
         "Network"
       ],
@@ -397,6 +413,7 @@
       "type": 3
     },
     {
+      "id": 17,
       "categories": [
         "Devops"
       ],
@@ -412,6 +429,7 @@
       "type": 3
     },
     {
+      "id": 18,
       "categories": [
         "Docker"
       ],
@@ -427,6 +445,7 @@
       "type": 3
     },
     {
+      "id": 19,
       "categories": [
         "Database",
         "Metrics"
@@ -443,6 +462,7 @@
       "type": 3
     },
     {
+      "id": 20,
       "categories": [
         "Database"
       ],
@@ -458,6 +478,7 @@
       "type": 3
     },
     {
+      "id": 21,
       "categories": [
         "Remote Control"
       ],
@@ -473,6 +494,7 @@
       "type": 3
     },
     {
+      "id": 22,
       "categories": [
         "Automation"
       ],
@@ -488,6 +510,7 @@
       "type": 3
     },
     {
+      "id": 23,
       "categories": [
         "Productivity"
       ],
@@ -503,6 +526,7 @@
       "type": 3
     },
     {
+      "id": 24,
       "categories": [
         "Network"
       ],
@@ -518,6 +542,7 @@
       "type": 3
     },
     {
+      "id": 25,
       "categories": [
         "Monitoring"
       ],
@@ -533,6 +558,7 @@
       "type": 3
     },
     {
+      "id": 26,
       "categories": [
         "Network",
         "VPN"
@@ -549,6 +575,7 @@
       "type": 3
     },
     {
+      "id": 27,
       "categories": [
         "Dashboard"
       ],
@@ -564,6 +591,7 @@
       "type": 3
     },
     {
+      "id": 28,
       "categories": [
         "Dashboard"
       ],
@@ -579,6 +607,7 @@
       "type": 3
     },
     {
+      "id": 29,
       "categories": [
         "System"
       ],
@@ -594,6 +623,7 @@
       "type": 3
     },
     {
+      "id": 30,
       "categories": [
         "Productivity",
         "Development",
