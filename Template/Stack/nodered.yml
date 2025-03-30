@@ -1,8 +1,10 @@
 services:
   node-red:
+    container_name: nodered
     image: nodered/node-red:latest
     environment:
-      - TZ=Europe/Athens
+      - TZ=${TZ}
+    restart: unless-stopped
     ports:
       - "1880:1880"
     networks:

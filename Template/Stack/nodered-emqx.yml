@@ -1,0 +1,45 @@
+services:
+  node-red:
+    image: nodered/node-red:latest
+    environment:
+      - TZ=${TZ}
+    ports:
+      - "1880:1880"
+    networks:
+      - node-red_mqtt_network
+    volumes:
+      - /portainer/Files/AppData/Config/nodered:/data
+    restart: unless-stopped
+
+  emqx:
+    image: emqx:latest
+    container_name: emqx
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "/opt/emqx/bin/emqx", "ctl", "status"]
+      interval: 5s
+      timeout: 25s
+      retries: 5
+    networks:
+      - node-red_mqtt_network
+    environment:
+      - EMQX_DASHBOARD__DEFAULT_USERNAME=${EMQX_DASHBOARD__DEFAULT_USERNAME}
+      - EMQX_DASHBOARD__DEFAULT_PASSWORD=${EMQX_DASHBOARD__DEFAULT_PASSWORD}
+    ports:
+      - 1883:1883
+      - 8083:8083
+      - 8084:8084
+      - 8883:8883
+      - 18083:18083 
+    volumes:
+      - emqx_data:/opt/emqx/data
+      - emqx_log:/opt/emqx/log
+
+
+volumes:
+  emqx_data:
+  emqx_log:
+
+networks:
+  node-red_mqtt_network:
+    driver: bridge

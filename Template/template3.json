@@ -11,7 +11,7 @@
         "Privacy",
         "Networking"
       ],
-      "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/logos/adguard.png",
+      "logo": "https://raw.githubusercontent.com/cgjgh/portainer_templates/master/logos/adguard.png",
       "image": "adguard/adguardhome:latest",
       "ports": [
         {
@@ -69,10 +69,10 @@
         "Authentication",
         "SSO"
       ],
-      "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/logos/authelia.png",
+      "logo": "https://raw.githubusercontent.com/cgjgh/portainer_templates/master/logos/authelia.png",
       "note": "Deploys using external Docker Compose file.",
       "repository": {
-        "url": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Stacks/authelia.yml"
+        "url": "https://raw.githubusercontent.com/cgjgh/portainer_templates/master/Stacks/authelia.yml"
       }
     }
   ]

@@ -5,16 +5,17 @@
   "private": true,
   "devDependencies": {
     "jsonlint": "^1.6.3",
-    "yaml-validator": "^4.0.0"
+    "yaml-validator": "^4.0.0",
+    "glob": "^8.0.3"
   },
   "scripts": {
     "pretest": "jsonlint Template/template.json --quiet",
-    "test": "yaml-validator Template/Stack/*"
+    "test": "node -e \"require('glob').sync('Template/Stack/*.yml').forEach(file => require('child_process').execSync('yaml-validator ' + file, {stdio: 'inherit'}))\""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xneo1/portainer_templates.git"
+    "url": "git+https://github.com/cgjgh/portainer_templates.git"
   },
-  "author": "xneo1",
+  "author": "cgjgh",
   "license": "GPLv3"
 }
